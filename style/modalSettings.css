@@ -1,0 +1,73 @@
+.modal{
+    position: fixed;
+    display: none;
+    z-index: 1;
+    width: 976px;
+    height: 520px;
+    background-color: rgba(0, 0, 0, 0.65);
+}
+
+.modal-content{
+
+    /*background-color: #fefefe;*/
+    background-color: #C4B2FF;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 78%;
+    height: 20%;
+}
+
+.modal-content__close{
+    display: grid;
+    grid-column: 2/3;
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    color: black;
+}
+
+
+.modal-content__settings{
+    display: grid;
+    grid-column: 1/2;
+    font-size: 24px;
+    /*color: rgba(255, 245, 102, 1);*/
+    color: black;
+    font-weight: 600;
+
+
+}
+
+.modal-content__title{
+    padding: 10px 0px 0px 0px;
+    font-size: 20px;
+}
+
+.footer{
+    display: grid;
+}
+
+.modal-content__form{
+    grid-column: 1/2;
+}
+
+.modal-content__form__input{
+    margin: 15px 0px 0px 0px;
+    width: 700px;
+    height: 25px;
+    font-size: 18px;
+    border: solid 2px black;
+    outline:none;
+}
+
+.modal-content__btn{
+    grid-column: 2/3;
+    margin: 15px 0px 0px 0px;
+    width: 40px;
+    height: 31px;
+    font-size: 18px;
+
+    border: solid 2px black;
+}

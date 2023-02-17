@@ -1,0 +1,143 @@
+.modalAuthorization{
+    position: fixed;
+    display: none;
+    z-index: 1;
+
+    width: 976px;
+    height: 520px;
+    margin-left: auto;
+    margin-right: auto;
+
+    background-color: rgba(0, 0, 0, 0.65);
+}
+
+.modalAuthorization-content{
+    background-color: #C4B2FF;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 78%;
+    height: 30%;
+}
+
+.modalAuthorization-content__authorization{
+    color: #000;
+    font-weight: 600;
+    display: grid;
+    grid-column: 1/2;
+    font-size: 24px;
+}
+
+.modalAuthorization-content__title{
+    padding: 10px 0px 0px 0px;
+    font-size: 20px;
+}
+
+.footerAuthorization{
+    display: grid;
+}
+
+.modalAuthorization-content__form{
+    grid-column: 1/2;
+
+}
+
+.modalAuthorization-content__form__input{
+    margin: 15px 0px 0px 0px;
+    width: 700px;
+    height: 25px;
+    font-size: 18px;
+    border: solid 2px black;
+    outline:none;
+}
+
+.modalAuthorization-content__btn{
+    grid-column: 1/2;
+    margin: 15px 0px 0px 0px;
+    width: 150px;
+    height: 31px;
+    font-size: 18px;
+
+    border: solid 2px black;
+}
+
+.modalAuthorization-content__btnContinue{
+    grid-column: 2/3;
+    margin: 15px 0px 0px 10px;
+
+    width: 150px;
+    height: 31px;
+    font-size: 18px;
+
+    border: solid 2px black;
+}
+
+
+
+
+
+.modalConfirmation{
+    position: fixed;
+    display: none;
+    z-index: 1;
+
+    width: 976px;
+    height: 520px;
+    margin-left: auto;
+    margin-right: auto;
+
+    background-color: rgba(0, 0, 0, 0.0);
+}
+
+.modalConfirmation-content{
+    background-color: #C4B2FF;
+
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 78%;
+    height: 30%;
+}
+
+.modalConfirmation-content__confirmation{
+    color: #000;
+    font-weight: 600;
+    display: grid;
+    grid-column: 1/2;
+    font-size: 24px;
+}
+
+.modalConfirmation-content__title{
+    padding: 10px 0px 0px 0px;
+    font-size: 20px;
+}
+
+.footerConfirmation{
+    display: grid;
+
+}
+
+.modalConfirmation-content__form{
+    grid-column: 1/2;
+
+}
+
+.modalConfirmation-content__form__input{
+    margin: 15px 0px 0px 0px;
+    width: 700px;
+    height: 25px;
+    font-size: 18px;
+    border: solid 2px black;
+    outline:none;
+}
+
+.modalConfirmation-content__btn{
+    grid-column: 1/2;
+    margin: 15px 0px 0px 0px;
+
+    width: 150px;
+    height: 31px;
+    font-size: 18px;
+
+    border: solid 2px black;
+}

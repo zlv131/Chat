@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> CHAT </title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/modalSettings.css">
+    <link rel="stylesheet" href="style/modalAuthorization.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="modalConfirmation" id="myModalConfirmation">
+            <div class="modalConfirmation-content">
+                <div class="modalConfirmation-content__confirmation"> Подтверждение </div>
+                <div class="modalConfirmation-content__title"> Код </div>
+                <div class="footerConfirmation">
+                    <form action="#" class="modalConfirmation-content__form">
+                        <input type="text" class="modalConfirmation-content__form__input">
+                    </form>
+                </div>
+                <button class="modalConfirmation-content__btn"> Продолжить </button>
+            </div>
+        </div>
+
+        <div class="modalAuthorization" id="myModalAuthorization">
+            <div class="modalAuthorization-content">
+                <div class="modalAuthorization-content__authorization"> Авторизация </div>
+                <div class="modalAuthorization-content__title"> Почта </div>
+                <div class="footerAuthorization">
+                    <form action="#" class="modalAuthorization-content__form">
+                        <input type="email" placeholder="Почта" class="modalAuthorization-content__form__input">
+                    </form>
+                </div>
+                <button class="modalAuthorization-content__btn"> Получить код </button>
+                <button class="modalAuthorization-content__btnContinue"> Ввести код </button>
+            </div>
+        </div>
+
+        <div class="modal" id="myModal">
+            <div class="modal-content">
+                <div class="modal-content__close">&times;</div>
+                <div class="modal-content__settings"> Настройки </div>
+                <div class="modal-content__title"> Имя в чате </div>
+                <div class="footer">
+                    <form action="#" class="modal-content__form">
+                        <input type="text" placeholder="Имя" class="modal-content__form__input">
+                    </form>
+                    <button class="modal-content__btn"> > </button>
+                </div>
+            </div>
+        </div>
+
+        <header class="content">
+            <div class="content__block">
+                <div class="block__button">
+                    <button class="button__settings" id="btn">
+                        <img class="button__settings__img" src="images/setting.png" alt="#">
+                        <a href="#" class="button__settings__link">Настройки</a>
+                    </button>
+                    <button class="button__exit">
+                        <img class="button__exit__img" src="images/exit.png" alt="#">
+                        <a href="#" class="button__exit__link">Выход</a>
+                    </button>
+                </div>
+            </div>
+        </header>
+        <div class="main">
+            <div class="main__chat">
+            </div>
+        </div>
+        <div class="footer">
+            <div class="footer__content">
+                <form action="#" class="content__form">
+                    <input type="text" placeholder="Ваше сообщение" class="form__input">
+                </form>
+                <button class="content__button"> > </button>
+            </div>
+        </div>
+    </div>
+
+    <template id="SMS__SEND">
+        <div class="chat__myCardSMS"></div>
+    </template>
+
+    <template id="DATE">
+        <div class="chat__date">  </div>
+    </template>
+
+    <template id="NAME">
+        <div class="chat__date">  </div>
+    </template>
+
+    <script src="https://cdn.jsdelivr.net/npm/js-cookie@3.0.1/dist/js.cookie.min.js"></script>
+    <script src="js/main.js" type="module"> </script>
+</body>
+</html>
